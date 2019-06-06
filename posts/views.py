@@ -35,4 +35,4 @@ posts = [
 
 
 def list_posts(req):
-    return render(req, 'feed.html', { 'posts': posts })
+    return render(req, 'posts/feed.html', { 'posts': posts })
